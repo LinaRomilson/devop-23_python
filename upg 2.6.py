@@ -1,3 +1,4 @@
+print("-------------------------" )
 print(".: KORVKOLLEN 1.0.1 :. ")
 print("-------------------------" )
 print("Hur många elever vill ha...")
