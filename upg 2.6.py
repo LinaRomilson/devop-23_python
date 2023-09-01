@@ -2,6 +2,7 @@ print("-------------------------" )
 print(".: KORVKOLLEN 1.0.1 :. ")
 print("-------------------------" )
 print("Hur många elever vill ha...")
+
 a = int(input('2 vanliga korvar > '))
 b = int(input('3 vanliga korvar > '))
 c = int(input('2 veganska korvar > '))
