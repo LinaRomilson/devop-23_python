@@ -36,15 +36,10 @@ while True:
 print("-" * ui_bredd)
 try:
     C = round(float(A/B),2)
-
     if A == 0 or B == 0:
-        raise Exception("Det går inte att dela med 0")
+        raise Exception("Det går inte att dela med 0")      #skapa exeption
 except Exception as e:
     print("FEL: Division med 0")
+
 if A != 0 and B != 0:
     print(A, "/", B, "=", C )
-#try:
- #   A = int(a)
-  #  B = int(b)
-#except ValueError:
- #   print("FEL: Ogiltigt nummer")
