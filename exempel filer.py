@@ -32,10 +32,10 @@ with open("textfil.txt") as f:
     text = f.read()
 print(text)
 
-# Öppna och läs fil
+# Öppna och läs fil med with
 with open("textfil.txt", 'a+') as f:
     f.write("Rad 4\n")
-    f.seek(0)
+    f.seek(0)  # Gå till filens första position
     text = f.read()
 print(text)
 
@@ -44,7 +44,7 @@ import json
 
 attendants = ['Åsa', 'Kalle', 'Olivia', 'Johan']
 with open('data.json', 'w') as f:
-    f.write(json.dumps(attendants))
+    f.write(json.dumps(attendants))     # Utan json blir listan en sträng
 
 # Läsning av JSON- formaterad list från fil
 # import json
