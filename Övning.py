@@ -16,3 +16,35 @@ print('\n\n\n')
 lista = list(range(10))
 for tal in lista:
     print(tal)
+
+#Skriva ut specifik del av nästlad dictionary
+server = {
+    'type': 'firewall',
+    'open_ports': [
+        1000,
+        1234,
+        1337
+    ]
+}
+print(server['open_ports'][0])
+
+#Tolkning av dictionaries
+person ={
+    "firstname": "Johan",
+    "lastname": "Svensson",
+    "age": 25,
+    "pets": [
+        {"name": "Morris", "age": 3, "typ": "hund"},
+        {"name": "Lisa", "age": 3,"typ": "katt"},
+        {"name": "Lussi", "age": 7,"typ": "kanin"}
+    ]
+}
+namn = (person['firstname'] + ' ' + person['lastname'])
+age = person['age']
+pets = person['pets']
+pets_count = len(pets)
+
+print(f"{namn} är {age} år gammal och har {pets_count} husdjur:")
+
+for pet in pets:
+    print(f"En {pet['age']} år gammal {pet['typ']} som heter {pet['name']}")
