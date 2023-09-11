@@ -4,9 +4,9 @@ notes = {
     "Inför tentamen": "Gör alla instuderingsuppgifter"
 }
 try:
-    inmatning = input("Anteckning > ")
+    Inmatning = input("Anteckning > ")
     print("-----")
-    print(f'{notes[inmatning]}')
+    print(f'{notes[Inmatning]}')
     print("-----")
 except KeyError:
     print('FEL: Anteckning finns inte')
