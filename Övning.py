@@ -36,7 +36,7 @@ person ={
     "pets": [
         {"name": "Morris", "age": 3, "typ": "hund"},
         {"name": "Lisa", "age": 3,"typ": "katt"},
-        {"name": "Lussi", "age": 7,"typ": "kanin"}
+        {"name": "Lusy", "age": 7,"typ": "kanin"}
     ]
 }
 namn = (person['firstname'] + ' ' + person['lastname'])
