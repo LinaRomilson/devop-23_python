@@ -1,7 +1,6 @@
 # Skapa en funktion som returnerar det minsta talet från en lista
 def minimum(tal):
-    minstaVärdet = min(tal)
-    return minstaVärdet
+    return min(tal)
 
 
 nummer = [3, 7, 12, 2, 8, -8]
